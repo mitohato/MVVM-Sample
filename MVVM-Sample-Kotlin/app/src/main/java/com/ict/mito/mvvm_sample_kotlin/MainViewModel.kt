@@ -5,6 +5,8 @@ import androidx.lifecycle.ViewModel
 /**
  * Created by mitohato14 on 2019-07-17.
  */
+
+// ViewModel
 class MainViewModel : ViewModel() {
     private val repository: Repository = Repository()
 
