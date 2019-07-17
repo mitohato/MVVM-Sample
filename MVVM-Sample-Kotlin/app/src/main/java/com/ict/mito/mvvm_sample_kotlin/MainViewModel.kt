@@ -6,4 +6,7 @@ import androidx.lifecycle.ViewModel
  * Created by mitohato14 on 2019-07-17.
  */
 class MainViewModel : ViewModel() {
+    fun message(): String {
+        return "Hello, World!"
+    }
 }
